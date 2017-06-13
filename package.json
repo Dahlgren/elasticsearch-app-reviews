@@ -12,7 +12,8 @@
   "dependencies": {
     "app-store-scraper": "^0.7.0",
     "elasticsearch": "^13.1.0",
-    "google-play-scraper": "^3.3.1"
+    "google-play-scraper": "^3.3.1",
+    "moment": "^2.18.1"
   },
   "devDependencies": {
     "standard": "^10.0.2"

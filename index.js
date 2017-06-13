@@ -21,8 +21,8 @@ class ElasticsearchAppReviews {
       })
   }
 
-  importGooglePlayReviews (appId, lang) {
-    return googlePlay(appId, lang)
+  importGooglePlayReviews (appId, lang, locale) {
+    return googlePlay(appId, lang, locale)
       .then((reviews) => {
         this.handleReviews('Android', appId, lang, reviews)
       })
