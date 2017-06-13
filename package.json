@@ -1,0 +1,20 @@
+{
+  "name": "elasticsearch-app-reviews",
+  "version": "1.0.0",
+  "description": "Import App Reviews to Elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Björn Dahlgren",
+  "license": "MIT",
+  "dependencies": {
+    "app-store-scraper": "^0.7.0",
+    "elasticsearch": "^13.1.0",
+    "google-play-scraper": "^3.3.1"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
+}
